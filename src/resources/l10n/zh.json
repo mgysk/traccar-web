@@ -490,7 +490,7 @@
     "eventAlarm": "警报",
     "eventIgnitionOn": "点火",
     "eventIgnitionOff": "熄火",
-    "eventMaintenance": "需要维护",
+    "eventMaintenance": "需要保养",
     "eventTextMessage": "已接收文本信息",
     "eventDriverChanged": "驾驶员变更",
     "eventMedia": "媒体",
