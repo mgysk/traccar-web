@@ -107,10 +107,12 @@ export default (t) => useMemo(() => ({
   coolantTemp: {
     name: t('positionCoolantTemp'),
     type: 'number',
+    dataType: 'temperature',
   },
   engineTemp: {
     name: t('positionEngineTemp'),
     type: 'number',
+    dataType: 'temperature',
   },
   gps: {
     name: t('positionGps'),
@@ -310,22 +312,27 @@ export default (t) => useMemo(() => ({
   deviceTemp: {
     name: t('positionDeviceTemp'),
     type: 'number',
+    dataType: 'temperature',
   },
   temp1: {
     name: `${t('positionTemp')} 1`,
     type: 'number',
+    dataType: 'temperature',
   },
   temp2: {
     name: `${t('positionTemp')} 2`,
     type: 'number',
+    dataType: 'temperature',
   },
   temp3: {
     name: `${t('positionTemp')} 3`,
     type: 'number',
+    dataType: 'temperature',
   },
   temp4: {
     name: `${t('positionTemp')} 4`,
     type: 'number',
+    dataType: 'temperature',
   },
   operator: {
     name: t('positionOperator'),
