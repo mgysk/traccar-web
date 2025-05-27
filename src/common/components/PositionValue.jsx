@@ -68,9 +68,11 @@ const PositionValue = ({ position, property, attribute }) => {
       case 'volume':
         return value != null ? formatVolume(value, volumeUnit, t) : '';
       case 'fuelConsumption':
+      case 'fuel':
+      case 'fuelUsed':
         return value != null ? formatConsumption(value, t) : '';
       case 'coolantTemp':
-        return value != null ? formatTemperature(value) : '';
+        return value != null ? formatConsumption(value, t) : '';
       case 'alarm':
         return formatAlarm(value, t);
       case 'odometer':
