@@ -285,6 +285,7 @@ export default (t) => useMemo(() => ({
   throttle: {
     name: t('positionThrottle'),
     type: 'number',
+    dataType: 'percentage',
   },
   motion: {
     name: t('positionMotion'),
