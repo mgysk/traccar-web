@@ -64,6 +64,7 @@ const PositionValue = ({ position, property, attribute }) => {
       case 'battery':
         return value != null ? formatVoltage(value, t) : '';
       case 'batteryLevel':
+      case 'throttle':
         return value != null ? formatPercentage(value) : '';
       case 'volume':
         return value != null ? formatVolume(value, volumeUnit, t) : '';
