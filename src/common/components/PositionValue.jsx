@@ -73,7 +73,9 @@ const PositionValue = ({ position, property, attribute }) => {
       case 'fuelConsumption':
         return value != null ? formatConsumption(value, t) : '';
       case 'coolantTemp':
-        return value != null ? formatTemperature(value, t) : '';
+      case 'bleTemp1':
+      case 'engineTemp':        
+        return value != null ? formatTemperature(value) : '';
       case 'alarm':
         return formatAlarm(value, t);
       case 'odometer':
